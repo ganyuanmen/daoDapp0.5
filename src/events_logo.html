@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>logo 设置/修改事件 | 道易程文档</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Adroi">
+    
+    <link rel="preload" href="/assets/css/0.styles.0f1dc6db.css" as="style"><link rel="preload" href="/assets/js/app.e7c6aad3.js" as="script"><link rel="preload" href="/assets/js/2.3c96ef4f.js" as="script"><link rel="preload" href="/assets/js/20.9cd14db9.js" as="script"><link rel="prefetch" href="/assets/js/10.0b6eb27e.js"><link rel="prefetch" href="/assets/js/11.e361f427.js"><link rel="prefetch" href="/assets/js/12.f607ae3a.js"><link rel="prefetch" href="/assets/js/13.62cb0928.js"><link rel="prefetch" href="/assets/js/14.39b9f7af.js"><link rel="prefetch" href="/assets/js/15.76e1eca8.js"><link rel="prefetch" href="/assets/js/16.581ab219.js"><link rel="prefetch" href="/assets/js/17.c26e52ba.js"><link rel="prefetch" href="/assets/js/18.77b5a2d9.js"><link rel="prefetch" href="/assets/js/19.85236f4a.js"><link rel="prefetch" href="/assets/js/21.7b5506bf.js"><link rel="prefetch" href="/assets/js/22.7b68f4cc.js"><link rel="prefetch" href="/assets/js/23.3d505164.js"><link rel="prefetch" href="/assets/js/24.110ab54a.js"><link rel="prefetch" href="/assets/js/25.cfd92b73.js"><link rel="prefetch" href="/assets/js/26.bef19fbe.js"><link rel="prefetch" href="/assets/js/27.9f1a8c00.js"><link rel="prefetch" href="/assets/js/28.00362fd7.js"><link rel="prefetch" href="/assets/js/3.63e04138.js"><link rel="prefetch" href="/assets/js/4.9c2dad33.js"><link rel="prefetch" href="/assets/js/5.872d12a3.js"><link rel="prefetch" href="/assets/js/6.73fe895b.js"><link rel="prefetch" href="/assets/js/7.206ef98c.js"><link rel="prefetch" href="/assets/js/8.cfce8567.js"><link rel="prefetch" href="/assets/js/9.50b39e31.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0f1dc6db.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">道易程文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/system.html" class="nav-link">
+  dao网站部署
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/system.html" class="nav-link">
+  dao网站部署
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>函数</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>事件</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/events_register.html" class="sidebar-link">dao 注册事件</a></li><li><a href="/events_IADD.html" class="sidebar-link">IADD 兑换事件</a></li><li><a href="/events_tokens.html" class="sidebar-link">token 发布事件</a></li><li><a href="/events_logo.html" aria-current="page" class="active sidebar-link">logo 设置/修改事件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/events_logo.html#logo设置事件" class="sidebar-link">logo设置事件</a></li><li class="sidebar-sub-header"><a href="/events_logo.html#logo修改事件" class="sidebar-link">logo修改事件</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>合约地址</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="logo-设置-修改事件"><a href="#logo-设置-修改事件" class="header-anchor">#</a> logo 设置/修改事件</h1> <h2 id="logo设置事件"><a href="#logo设置事件" class="header-anchor">#</a> logo设置事件</h2> <h6 id="事件名称"><a href="#事件名称" class="header-anchor">#</a> 事件名称</h6> <p><code>setLogoEvent(maxBlockNumber,callbackFun)</code></p> <h6 id="参数"><a href="#参数" class="header-anchor">#</a> 参数</h6> <ul><li>maxBlockNumber: 订阅该事件的最大区块号，即：从这个区块开始监听事件</li> <li>callbackFun: 回调函数</li></ul> <h6 id="传入回调函数的数据"><a href="#传入回调函数的数据" class="header-anchor">#</a> 传入回调函数的数据</h6> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;address&quot;</span><span class="token operator">:</span> 合约地址<span class="token punctuation">,</span>
+    <span class="token string">&quot;blockHash&quot;</span><span class="token operator">:</span> 交易所在块的哈希<span class="token punctuation">,</span>
+    <span class="token string">&quot;blockNumber&quot;</span><span class="token operator">:</span>交易所在块的编号<span class="token punctuation">,</span>
+    <span class="token string">&quot;transactionHash&quot;</span><span class="token operator">:</span> 交易哈希<span class="token punctuation">,</span>
+    <span class="token string">&quot;transactionIndex&quot;</span><span class="token operator">:</span>交易在块中的索引位置
+    <span class="token string">&quot;event&quot;</span><span class="token operator">:</span> 事件名称
+    <span class="token string">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;src&quot;</span><span class="token operator">:</span> 图片的base64 编码
+            <span class="token string">&quot;daoId&quot;</span><span class="token operator">:</span> dao 的 <span class="token constant">ID</span>
+            <span class="token string">&quot;timestamp&quot;</span><span class="token operator">:</span> 时间戳（<span class="token number">1633699058</span>）
+            <span class="token punctuation">}</span>
+                        
+<span class="token punctuation">}</span>
+</code></pre></div><h6 id="调用方式"><a href="#调用方式" class="header-anchor">#</a> 调用方式</h6> <div class="language-js extra-class"><pre class="language-js"><code>logo<span class="token punctuation">.</span><span class="token function">setLogoEvent</span><span class="token punctuation">(</span>maxBlockNumber<span class="token punctuation">,</span>callbackFun<span class="token punctuation">)</span>
+</code></pre></div><h6 id="示例"><a href="#示例" class="header-anchor">#</a> 示例</h6> <div class="language-js extra-class"><pre class="language-js"><code>
+    本次事件订阅从<span class="token number">199</span> 区块号开始监听
+
+    daoapi<span class="token punctuation">.</span>logo<span class="token punctuation">.</span><span class="token function">setLogoEvent</span><span class="token punctuation">(</span><span class="token number">199</span><span class="token punctuation">,</span><span class="token parameter">data</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// do something </span>
+
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</code></pre></div><h2 id="logo修改事件"><a href="#logo修改事件" class="header-anchor">#</a> logo修改事件</h2> <h6 id="事件名称-2"><a href="#事件名称-2" class="header-anchor">#</a> 事件名称</h6> <p><code>changeLogoEvent(maxBlockNumber,callbackFun)</code></p> <h6 id="参数-2"><a href="#参数-2" class="header-anchor">#</a> 参数</h6> <ul><li>maxBlockNumber: 订阅该事件的最大区块号，即：从这个区块开始监听事件</li> <li>callbackFun: 回调函数</li></ul> <h6 id="传入回调函数的数据-2"><a href="#传入回调函数的数据-2" class="header-anchor">#</a> 传入回调函数的数据</h6> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;address&quot;</span><span class="token operator">:</span> 合约地址<span class="token punctuation">,</span>
+    <span class="token string">&quot;blockHash&quot;</span><span class="token operator">:</span> 交易所在块的哈希<span class="token punctuation">,</span>
+    <span class="token string">&quot;blockNumber&quot;</span><span class="token operator">:</span>交易所在块的编号<span class="token punctuation">,</span>
+    <span class="token string">&quot;transactionHash&quot;</span><span class="token operator">:</span> 交易哈希<span class="token punctuation">,</span>
+    <span class="token string">&quot;transactionIndex&quot;</span><span class="token operator">:</span>交易在块中的索引位置
+    <span class="token string">&quot;event&quot;</span><span class="token operator">:</span> 事件名称
+    <span class="token string">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;src&quot;</span><span class="token operator">:</span> 图片的base64 编码
+            <span class="token string">&quot;daoId&quot;</span><span class="token operator">:</span> dao 的 <span class="token constant">ID</span>
+            <span class="token string">&quot;timestamp&quot;</span><span class="token operator">:</span> 时间戳（<span class="token number">1633699058</span>）
+            <span class="token punctuation">}</span>
+                        
+<span class="token punctuation">}</span>
+</code></pre></div><h6 id="调用方式-2"><a href="#调用方式-2" class="header-anchor">#</a> 调用方式</h6> <div class="language-js extra-class"><pre class="language-js"><code>logo<span class="token punctuation">.</span><span class="token function">changeLogoEvent</span><span class="token punctuation">(</span>maxBlockNumber<span class="token punctuation">,</span>callbackFun<span class="token punctuation">)</span>
+</code></pre></div><h6 id="示例-2"><a href="#示例-2" class="header-anchor">#</a> 示例</h6> <div class="language-js extra-class"><pre class="language-js"><code>
+    本次事件订阅从<span class="token number">199</span> 区块号开始监听
+
+    daoapi<span class="token punctuation">.</span>register<span class="token punctuation">.</span><span class="token function">changeLogoEvent</span><span class="token punctuation">(</span><span class="token number">199</span><span class="token punctuation">,</span><span class="token parameter">data</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// do something </span>
+
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/events_tokens.html" class="prev">
+        token 发布事件
+      </a></span> <span class="next"><a href="/address_register.html">
+        register 合约地址
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e7c6aad3.js" defer></script><script src="/assets/js/2.3c96ef4f.js" defer></script><script src="/assets/js/20.9cd14db9.js" defer></script>
+  </body>
+</html>
