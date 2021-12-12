@@ -1,19 +1,6 @@
 CREATE DATABASE `dao_db` character set utf8mb4;
 USE `dao_db`;
 
-CREATE TABLE `a_dao` (
-  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `title` VARCHAR(255) DEFAULT NULL,
-  `daf_address` VARCHAR(255) DEFAULT NULL,
-  `logo_url` VARCHAR(255) DEFAULT NULL,
-  `remark` VARCHAR(2000) DEFAULT NULL,
-  `create_time` VARCHAR(255) DEFAULT NULL,
-  `price` VARCHAR(255) DEFAULT NULL,
-  `eth_index` INT DEFAULT NULL,
-  `max_index` INT DEFAULT '0',
-  PRIMARY KEY (`id`)
-);
-
 
 CREATE TABLE `t_changelogo` (
   `dao_id` INT NOT NULL COMMENT 'dao id',
